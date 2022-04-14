@@ -5,7 +5,7 @@ Which is not me.
 
 I do not own the rights.
 
-##what
+## what
 he walk.
 
 he flip.
@@ -16,7 +16,7 @@ nothing else.
 
 thank you.
 
-##how
+## how
 download or compile it urself.
 
 run amogus.exe
