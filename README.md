@@ -6,21 +6,11 @@ Which is not me.
 I do not own the rights.
 
 ## what
-he walk.
-
-he flip.
-
-he knife.
-
-nothing else.
+he walk. he flip. he knife. nothing else.
 
 thank you.
 
 ## how
-download or compile it urself.
+download or compile it urself. run amogus.exe.
 
-run amogus.exe
-
-no quit
-
-use task manager
+no quit. use task manager
