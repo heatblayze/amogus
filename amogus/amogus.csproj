@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\amogus_idle_right.png" />
+    <None Remove="Resources\amogus_knife.png" />
+    <None Remove="Resources\amogus_reveal.wav" />
+    <None Remove="Resources\amogus_walk1.png" />
+    <None Remove="Resources\amogus_walk2.png" />
+    <None Remove="Resources\amogus_walk3.png" />
+    <None Remove="Resources\amogus_walk4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\amogus_reveal.wav" />
+    <Resource Include="Resources\amogus_idle_right.png" />
+    <Resource Include="Resources\amogus_knife.png" />
+    <Resource Include="Resources\amogus_walk1.png" />
+    <Resource Include="Resources\amogus_walk2.png" />
+    <Resource Include="Resources\amogus_walk3.png" />
+    <Resource Include="Resources\amogus_walk4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
